@@ -1,0 +1,10 @@
+{
+	"Name": "Git Training",
+	"description": "Simple web server to allow local changes to be viewed",
+	"version": "1.0.0",
+	"scripts": {},
+	"engines": {
+		"node": ">= 4.0.0",
+		"npm": ">= 3.0.0"
+	}
+}
