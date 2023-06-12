@@ -83,8 +83,17 @@
         padding: 2%;
       }
     </style>
+
   </head>
   <body>
+    <script>
+      function showAlert() {
+        console.log("pressed");
+        alert("Thank you for pressing!");
+        // added comment
+      }
+    </script>
+
     <div class="container">
       <div class="header">
         <span class="header-body">
@@ -92,6 +101,8 @@
         </span>
       </div>
       <div class="body">
+        <div class="sub-header">
+        </div>
         <div class="column">
           <div class="column-item" style="border: 3px solid yellow;">Item 1</div>
           <div class="column-item" style="border: 3px solid orange;">Item 2</div>
@@ -110,9 +121,11 @@
       </div>
       <div class="footer">
         <span class="footer-body">
-          This is the footer...
+          <button type="button" onlcick="showAlert()">Click Here!</button>
         </span>
       </div>
     </div>
+
+
   </body>
 </html>
